@@ -1,14 +1,14 @@
 import React from 'react';
-import  './TopNav.css';
+import styles from  './TopNav.module.css';
 
 export default function TopNav () {
     return (
-        <div className='top-nav'>
-            <div className='left'>
+        <div className={styles['top-nav']}>
+            <div className={styles['left']}>
                 <span>Write a review</span>
                 <span>Events</span>
             </div>
-            <div className='right'>
+            <div className={styles['right']}>
                 <span>Login</ span>
                 <button className='button'>Sign up</button>
             </div>
