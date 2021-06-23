@@ -7,11 +7,13 @@ import SearchSuggestions from './SearchSuggestions/SearchSuggestions.js'
 
 export default function LandingPage() {
     return (
-        <div>
-            <TopNav />
-            <img src={logo} className={styles.logo} alt='logo' />
-            <SearchBar />
-            <SearchSuggestions />
-        </div>
+        <div className={styles.landing}>
+            <div className={styles['search-area']}>
+                <TopNav />
+                <img src={logo} className={styles.logo} alt='logo' />
+                <SearchBar className={styles.item}/>
+                <SearchSuggestions />
+            </div>
+        </div> 
     )
 }

@@ -3,3 +3,12 @@
     height: 80px;
     margin: 50px 0;
 }
+.search-area  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.landing  {
+    display: flex;
+    justify-content: space-around;
+}
