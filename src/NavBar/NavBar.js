@@ -7,7 +7,7 @@ export default function NavBar() {
     return (
         <div className={styles['nav-bar']}>
             <img src={logo} alt='yelp logo' className={styles.logo}></img>
-            <SearchBar/>
+            <SearchBar small/>
             <button className={`button ${styles['nav-button']}`}>Sign in</button>
             <button className={`button ${styles['nav-button']}`}>Register</button>
         </div>
