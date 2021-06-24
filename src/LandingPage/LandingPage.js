@@ -5,7 +5,7 @@ import styles from './LandingPage.module.css'
 import SearchBar from './SearchBar/SearchBar'
 import SearchSuggestions from './SearchSuggestions/SearchSuggestions.js'
 
-export default function LandingPage() {
+export  function LandingPage() {
     return (
         <div className={styles.landing}>
             <div className={styles['search-area']}>
